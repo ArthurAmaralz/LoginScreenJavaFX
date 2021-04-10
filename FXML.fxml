@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="loginscreen.FXMLController">
+   <children>
+      <Button layoutX="384.0" layoutY="200.0" mnemonicParsing="false" text="Entrar" />
+      <AnchorPane layoutX="7.0" layoutY="6.0" prefHeight="289.0" prefWidth="200.0" style="-fx-background-color: #7FFFD4;">
+         <children>
+            <Text fontSmoothingType="LCD" layoutX="26.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bem Vindo a Area do Aluno" textAlignment="CENTER" wrappingWidth="149.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text fill="#22d74f" fontSmoothingType="LCD" layoutX="362.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tela de Login" wrappingWidth="101.13671875">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Text>
+      <PasswordField layoutX="335.0" layoutY="166.0" promptText="Senha" />
+      <Hyperlink layoutX="356.0" layoutY="252.0" text="Esqueceu a senha?" />
+      <TextField layoutX="335.0" layoutY="125.0" promptText="Usuario" />
+   </children>
+</AnchorPane>
